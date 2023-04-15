@@ -1,56 +1,80 @@
-#title {
-    
-    position: absolute;
-    max-height: 5% ;
-    margin: 0%;
-    border-bottom: 2px solid black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(33, 34, 52);
+}
+
+#titulo{
+    height: 3em;
+    background-color: rgb(238, 173, 45);
+    color: rgb(33, 34, 52);
+    border: 1px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+}
+
+main {
+    height: 48.3em;
 }
 
 #color-palette{
-    
-    position: relative;
-    top: 3em;
-    left: 0em;
-    background-color: rgba(41, 41, 41, 0.836);
-    width: 15em ;
-    height: 3em;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 
-}   
-
-#button-random-color {
-    position: relative;
-    top:4em;
-    background-color: rgba(41, 41, 41, 0.836);
-    border: 1px solid black;
-    color: white;
 }
 
-.color{
-    
-    position: relative;
-    height: 3em;
-    width: 4em;
-    top:0.2em;
-    left: 0.5em;
-    border: 1px solid black;
+.color {
+    width: 50px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
     
 }
 
-#botaoBlack {
+footer {
+    background-color:  rgb(238, 173, 45);
+    height: 3em;
+    border: 1px solid black;
+}
+
+#color0 {
     background-color: black;
 }
 
-#color1{
-    background-color: blue;
-}
-
-#color2{
+#color1 {
     background-color: red;
 }
 
-#color3{
+#color2 {
+ background-color: blue;
+}
+
+#color3 {
     background-color: yellow;
 }
 
+#posicao-random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
+#button-random-color {
+    
+    background-color: rgb(238, 173, 45);
+    color: rgb(33, 34, 52);
+    font-size: 20px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+      
+    
