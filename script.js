@@ -11,7 +11,8 @@ function generateRandomColor() {
 document.querySelector('#button-random-color').addEventListener('click', () => {
   colors.forEach(color => {
     color.style.backgroundColor = generateRandomColor();
-  });
+    });
+});   
+
 });
-    
-});
+
