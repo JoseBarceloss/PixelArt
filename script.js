@@ -41,4 +41,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    colorPalette.addEventListener('click', (event) =>{
+        const color = event.target;
+        if (color.classList.contains('color')) {
+            const colors = document.querySelectorAll('.color');
+            colors.forEach(colo => colo.classList.remove('selected'));
+            color.classList.add('selected');
+        }
+    });
+
+    
   });
