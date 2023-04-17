@@ -30,8 +30,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-
 }
 
 .color {
@@ -104,4 +102,34 @@ footer {
     border: 1px solid black;
     height: 40px;
     width: 40px;
+}
+
+#botão-borda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10;
+    height: 50px;
+}
+
+#clear-board{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#creditos {
+    color: white;
+    font-size: 18px;
+    position: absolute;
 }
